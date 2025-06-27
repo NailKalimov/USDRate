@@ -2,7 +2,7 @@ from django.db import models
 
 
 class USD(models.Model):
-    time = models.CharField(max_length=40)
+    time = models.DateTimeField()
     value = models.FloatField()
 
     class Meta:
