@@ -39,8 +39,6 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 ```
-P.S.: Для упрощения демонстарции к проекту прикреплена бд sqlite с данными, 
-так что 4 пункт можно пропустить.
 
 ## Запуск проекта
 
